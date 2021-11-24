@@ -1,1 +1,16 @@
 /* PHASE 0: Sidebar */
+.profile-picture {
+    display: block;
+    margin-top: -100px;
+    position: relative;
+}
+
+.profile-nav > ul > li:first-child {
+    margin: 10px;
+    border-top: 1px solid;
+}
+
+.profile-nav > ul > li {
+    border-bottom: 1px solid;
+    margin: 10px;
+}
